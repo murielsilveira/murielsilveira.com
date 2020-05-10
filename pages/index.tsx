@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        © Copyright 2016
+        © Copyright 2016 - 2020
       </footer>
 
       <style jsx>{`
