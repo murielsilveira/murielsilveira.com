@@ -4,10 +4,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className="wrapper">
-      <Head>
-        <title>Muriel Silveira</title>
-      </Head>
-
       <nav>
         <Link href="/about">
           <a className="nav-link">About</a>
@@ -20,7 +16,7 @@ export default function Home() {
       </nav>
 
       <header className="header">
-        <img className="header-pic" src="/yo.jpg" alt="Muriel's photo" width="150" height="150" />
+        <img className="header-pic" src="/images/yo.jpg" alt="Muriel's photo" width="150" height="150" />
         <h1>Muriel Silveira</h1>
       </header>
 
